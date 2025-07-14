@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-14T14:54:17 IST" name="Nixonex Automation Suite" finished-at="2025-07-14T14:56:16 IST" duration-ms="119322">
+    <groups>
+    </groups>
+    <test started-at="2025-07-14T14:54:17 IST" name="Register Test" finished-at="2025-07-14T14:55:46 IST" duration-ms="88839">
+      <class name="com.nixonex.tests.ProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nixonex.tests.ProductTest@7d20d0b]" started-at="2025-07-14T14:54:50 IST" name="setup" finished-at="2025-07-14T14:54:58 IST" duration-ms="7902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddProductToCart()[pri:0, instance:com.nixonex.tests.ProductTest@7d20d0b]" started-at="2025-07-14T14:54:58 IST" name="testAddProductToCart" finished-at="2025-07-14T14:55:16 IST" duration-ms="18067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nixonex.tests.ProductTest@7d20d0b]" started-at="2025-07-14T14:55:16 IST" name="tearDown" finished-at="2025-07-14T14:55:16 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nixonex.tests.ProductTest -->
+      <class name="com.nixonex.tests.CheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nixonex.tests.CheckoutTest@77f1baf5]" started-at="2025-07-14T14:55:16 IST" name="setup" finished-at="2025-07-14T14:55:24 IST" duration-ms="8195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFullCheckoutFlow()[pri:0, instance:com.nixonex.tests.CheckoutTest@77f1baf5]" started-at="2025-07-14T14:55:24 IST" name="testFullCheckoutFlow" finished-at="2025-07-14T14:55:45 IST" duration-ms="21434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullCheckoutFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nixonex.tests.CheckoutTest@77f1baf5]" started-at="2025-07-14T14:55:45 IST" name="tearDown" finished-at="2025-07-14T14:55:46 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nixonex.tests.CheckoutTest -->
+      <class name="com.nixonex.tests.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nixonex.tests.RegisterTest@233795b6]" started-at="2025-07-14T14:54:17 IST" name="setup" finished-at="2025-07-14T14:54:30 IST" duration-ms="12531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUserRegistration()[pri:0, instance:com.nixonex.tests.RegisterTest@233795b6]" started-at="2025-07-14T14:54:30 IST" name="testUserRegistration" finished-at="2025-07-14T14:54:36 IST" duration-ms="6348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nixonex.tests.RegisterTest@233795b6]" started-at="2025-07-14T14:54:36 IST" name="tearDown" finished-at="2025-07-14T14:54:36 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nixonex.tests.RegisterTest -->
+      <class name="com.nixonex.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nixonex.tests.LoginTest@24313fcc]" started-at="2025-07-14T14:54:36 IST" name="setup" finished-at="2025-07-14T14:54:45 IST" duration-ms="8800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUserLogin()[pri:0, instance:com.nixonex.tests.LoginTest@24313fcc]" started-at="2025-07-14T14:54:45 IST" name="testUserLogin" finished-at="2025-07-14T14:54:50 IST" duration-ms="4787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nixonex.tests.LoginTest@24313fcc]" started-at="2025-07-14T14:54:50 IST" name="tearDown" finished-at="2025-07-14T14:54:50 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nixonex.tests.LoginTest -->
+    </test> <!-- Register Test -->
+    <test started-at="2025-07-14T14:55:46 IST" name="E2E Test" finished-at="2025-07-14T14:56:16 IST" duration-ms="29960">
+      <class name="com.nixonex.tests.CheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nixonex.tests.CheckoutTest@6ab778a]" started-at="2025-07-14T14:55:46 IST" name="setup" finished-at="2025-07-14T14:55:55 IST" duration-ms="8689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFullCheckoutFlow()[pri:0, instance:com.nixonex.tests.CheckoutTest@6ab778a]" started-at="2025-07-14T14:55:55 IST" name="testFullCheckoutFlow" finished-at="2025-07-14T14:56:16 IST" duration-ms="21160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullCheckoutFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nixonex.tests.CheckoutTest@6ab778a]" started-at="2025-07-14T14:56:16 IST" name="tearDown" finished-at="2025-07-14T14:56:16 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nixonex.tests.CheckoutTest -->
+    </test> <!-- E2E Test -->
+  </suite> <!-- Nixonex Automation Suite -->
+</testng-results>

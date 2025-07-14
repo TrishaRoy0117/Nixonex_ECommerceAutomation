@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Nixonex Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Register Test(failed)">
+    <classes>
+      <class name="com.nixonex.tests.ProductTest">
+        <methods>
+          <include name="testAddProductToCart"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.nixonex.tests.ProductTest -->
+    </classes>
+  </test> <!-- Register Test(failed) -->
+</suite> <!-- Failed suite [Nixonex Automation Suite] -->

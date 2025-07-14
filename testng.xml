@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Nixonex Automation Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.nixonex.utils.ExtentTestListener"/>
+    </listeners>
+
+    <test name="Register Test">
+        <classes>
+            <class name="com.nixonex.tests.RegisterTest"/>
+            <class name="com.nixonex.tests.LoginTest"/>
+            <class name="com.nixonex.tests.ProductTest"/>
+            <class name="com.nixonex.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+    <test name="E2E Test">
+        <classes>
+            <class name="com.nixonex.tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
